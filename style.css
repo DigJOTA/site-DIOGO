@@ -91,5 +91,15 @@ body {
                max-width: 300px;
                margin: 10px 0;
              }
-
+             .profissao-div :nth-of-type(1) {
+                  margin: 0 auto; /* Centraliza o primeiro card */
+              }
             }
+
+            /* Para telas medias, como tables */
+            @media (max-widht:768px) {
+                .profissao-todos {
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    }
+                    }
